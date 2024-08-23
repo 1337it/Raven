@@ -53,12 +53,14 @@ min-height: 100%!important;
 }
 html {
     scrollbar-gutter: stable;
+    overflow:hidden!important;
 }
 
 body {
     text-rendering: optimizeLegibility;
     margin: 0;
     -webkit-font-smoothing: antialiased;
+        overflow:hidden!important;
 }
 
 /* make header draggable on desktop app */
