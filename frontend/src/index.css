@@ -46,7 +46,11 @@ ul {
         --sidebar-width: 0rem;
     }
 }
-
+@supports (min-height: 100dvh){
+.radix-themes:where([data-is-root-theme=true]) {
+min-height: 100%!important;
+}
+}
 html {
     scrollbar-gutter: stable;
 }
