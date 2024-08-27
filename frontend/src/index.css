@@ -19,6 +19,16 @@ a {
     text-decoration: none;
 }
 @media (max-height: 500px){
+
+
+
+    .rt-Flex.rt-r-ai-center.rt-r-gap-2.animate-fadein {
+display: none;
+}
+    .md\:ml-\[var\(--sidebar-width\)\] {
+margin-left: 0;
+}
+
 .w-\[calc\(100vw-var\(--sidebar-width\)\)\] {
 width: calc(100vw);
 }
@@ -31,9 +41,7 @@ display: none;
     .rt-Flex.rt-r-fd-column.rt-r-gap-2.p-2 {
 display: none;
 }
-header {
-display: none;
-}
+
 }
 ol,
 ul {
