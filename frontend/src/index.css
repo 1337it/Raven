@@ -18,7 +18,23 @@ a {
     color: inherit;
     text-decoration: none;
 }
+@media (max-height: 500px){
+.w-\[calc\(100vw-var\(--sidebar-width\)\)\] {
+width: calc(100vw);
+}
+.rt-r-position-fixed {
+display: none;
+}
 
+
+
+    .rt-Flex.rt-r-fd-column.rt-r-gap-2.p-2 {
+display: none;
+}
+header {
+display: none;
+}
+}
 ol,
 ul {
     margin: 0;
