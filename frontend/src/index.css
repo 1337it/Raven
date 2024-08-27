@@ -25,12 +25,13 @@ a {
     .rt-Flex.rt-r-ai-center.rt-r-gap-2.animate-fadein {
 display: none;
 }
-    .md\:ml-\[var\(--sidebar-width\)\] {
-margin-left: 0;
+[href="/raven/channel"] {
+display: none;
 }
 
 .w-\[calc\(100vw-var\(--sidebar-width\)\)\] {
 width: calc(100vw);
+    margin-left: 0!important;
 }
 .rt-r-position-fixed {
 display: none;
