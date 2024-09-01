@@ -12,6 +12,13 @@ $(document).on('app_ready', function () {
 
         let chat_element = $(document.createElement('div'));
         chat_element.addClass('raven-chat');
+if(window.innerHeight = 400px){
+$('#root').parent().attr('class', 'light')}
+else if (window.innerHeight = 401px){
+$('#root').parent().attr('class', 'dark')}
+
+
+
 
         main_section.append(chat_element);
 
