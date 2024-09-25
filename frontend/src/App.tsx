@@ -55,7 +55,7 @@ function App() {
   const [appearance, setAppearance] = useStickyState<'light' | 'dark'>('dark', 'appearance');
 
   const toggleTheme = () => {
-    setAppearance(appearance === 'dark' ? 'light' : 'dark');
+    setAppearance(appearance === 'light' ? 'light' : 'light');
   };
 
   // We need to pass sitename only if the Frappe version is v15 or above.
