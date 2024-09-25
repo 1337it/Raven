@@ -20,7 +20,9 @@ a {
 }
 @media (max-height: 500px){
 
-
+.pb-8.bottom-0 {
+padding-bottom: 0.5rem;
+}
 
     .rt-Flex.rt-r-ai-center.rt-r-gap-2.animate-fadein {
 display: none;
