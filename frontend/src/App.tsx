@@ -52,7 +52,7 @@ const router = createBrowserRouter(
 )
 function App() {
 
-  const [appearance, setAppearance] = useStickyState<'light' | 'dark'>('dark', 'appearance');
+  const [appearance, setAppearance] = useStickyState<'light' | 'dark'>('light', 'appearance');
 
   const toggleTheme = () => {
     setAppearance(appearance === 'light' ? 'light' : 'light');
